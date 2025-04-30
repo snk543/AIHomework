@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Expense Tracker</h1>
+        
+        <div class="expense-form">
+            <h2>Add New Expense</h2>
+            <div class="input-group">
+                <input type="text" id="category" placeholder="Category" required>
+                <input type="number" id="amount" placeholder="Amount ($)" required>
+                <button onclick="addExpense()">Add Expense</button>
+            </div>
+        </div>
+
+        <div class="expense-table">
+            <h2>Expense List</h2>
+            <table id="expenseTable">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount ($)</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="expenseList"></tbody>
+            </table>
+            <button onclick="calculateExpenses()" class="calculate-btn">Calculate</button>
+        </div>
+
+        <div class="results" id="results">
+            <h2>Expense Analysis</h2>
+            <div class="result-item">
+                <h3>Total Expenses:</h3>
+                <p id="totalExpenses">$0</p>
+            </div>
+            <div class="result-item">
+                <h3>Average Daily Expense:</h3>
+                <p id="averageDaily">$0</p>
+            </div>
+            <div class="result-item">
+                <h3>Top 3 Expenses:</h3>
+                <ul id="topExpenses"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
