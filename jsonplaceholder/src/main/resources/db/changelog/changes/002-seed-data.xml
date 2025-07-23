@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.25.xsd">
+
+    <changeSet id="002" author="jsonplaceholder">
+        <insert tableName="users">
+            <column name="name" value="Leanne Graham"/>
+            <column name="username" value="Bret"/>
+            <column name="email" value="Sincere@april.biz"/>
+            <column name="street" value="Kulas Light"/>
+            <column name="suite" value="Apt. 556"/>
+            <column name="city" value="Gwenborough"/>
+            <column name="zipcode" value="92998-3874"/>
+            <column name="lat" value="-37.3159"/>
+            <column name="lng" value="81.1496"/>
+            <column name="phone" value="1-770-736-8031 x56442"/>
+            <column name="website" value="hildegard.org"/>
+            <column name="company_name" value="Romaguera-Crona"/>
+            <column name="catch_phrase" value="Multi-layered client-server neural-net"/>
+            <column name="bs" value="harness real-time e-markets"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="name" value="Ervin Howell"/>
+            <column name="username" value="Antonette"/>
+            <column name="email" value="Shanna@melissa.tv"/>
+            <column name="street" value="Victor Plains"/>
+            <column name="suite" value="Suite 879"/>
+            <column name="city" value="Wisokyburgh"/>
+            <column name="zipcode" value="90566-7771"/>
+            <column name="lat" value="-43.9509"/>
+            <column name="lng" value="-34.4618"/>
+            <column name="phone" value="010-692-6593 x09125"/>
+            <column name="website" value="anastasia.net"/>
+            <column name="company_name" value="Deckow-Crist"/>
+            <column name="catch_phrase" value="Proactive didactic contingency"/>
+            <column name="bs" value="synergize scalable supply-chains"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="name" value="Clementine Bauch"/>
+            <column name="username" value="Samantha"/>
+            <column name="email" value="Nathan@yesenia.net"/>
+            <column name="street" value="Douglas Extension"/>
+            <column name="suite" value="Suite 847"/>
+            <column name="city" value="McKenziehaven"/>
+            <column name="zipcode" value="59590-4157"/>
+            <column name="lat" value="-68.6102"/>
+            <column name="lng" value="-47.0653"/>
+            <column name="phone" value="1-463-123-4447"/>
+            <column name="website" value="ramiro.info"/>
+            <column name="company_name" value="Romaguera-Jacobson"/>
+            <column name="catch_phrase" value="Face to face bifurcated interface"/>
+            <column name="bs" value="e-enable strategic applications"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog> 

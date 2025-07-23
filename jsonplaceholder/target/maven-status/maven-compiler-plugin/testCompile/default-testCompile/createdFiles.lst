@@ -1,0 +1,5 @@
+com/jsonplaceholder/api/controller/AuthControllerTest.class
+com/jsonplaceholder/api/service/AuthServiceTest.class
+com/jsonplaceholder/api/service/UserServiceTest.class
+com/jsonplaceholder/api/controller/UserControllerTest.class
+com/jsonplaceholder/api/controller/PostControllerTest.class
